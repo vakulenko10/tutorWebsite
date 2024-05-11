@@ -90,7 +90,7 @@ const Header = () => {
                   className="block md:px-4 transition hover:text-primary"
                   onClick={hideHeader}
                 >
-                  <span>Вартість</span>
+                  <span>Курси</span>
                 </a>
               </li>
               <li>
@@ -120,7 +120,7 @@ const Header = () => {
               onClick={hideHeader}
             >
               <span className="relative text-sm font-semibold text-white">
-                Зв'язатися
+                Зв&apos;язатися
               </span>
             </a>
           </div>
