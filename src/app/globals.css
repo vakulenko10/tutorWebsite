@@ -1,29 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+
+} */
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+}
+.welcome-title{
+  position: relative;
+  background: #7469B6;
+background: linear-gradient(to right, #7469B6 0%, #E1AFD1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .welcome-u{
+  position: relative;
+  color: #7469B6;
+} */
+
+.onHoverUnderline::before{
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: 16px;
+  height: 14px;
+  background: #E8DFCA;
+  z-index: -1;
+  transition: width 0.2s linear; /* Transition the width property */
+  width: 0; /* Initial width */
+}
+.onHoverUnderline:hover::before { /* Changed selector to include :hover */
+  width: 100%; /* Change width to 100% on hover */
 }
 
+@keyframes rotateWords {
+  0% {
+    transform: translateY(-20px);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes underlineAnimation {
+  0%{
+    width: 0%;
+  }
+  25%{
+    width: 25%;
+  }
+  50%{
+    width: 70%;
+  }
+  75%{
+    width: 85%;
+  }
+  100%{
+    width: 100%;
+  }
+}
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
