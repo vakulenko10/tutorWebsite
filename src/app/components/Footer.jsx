@@ -2,30 +2,30 @@ import React from 'react'
 import Container from './Container'
 const Footer = () => {
   return (
-    <footer class="py-20 md:py-40">
+    <footer className="py-20 md:py-40">
     <Container>
-      <div class="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
-        <div class="flex flex-wrap items-center justify-between md:flex-nowrap">
+      <div className="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
+        <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
           <div
-            class="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start"
+            className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start"
           >
-            <ul class="list-inside list-disc space-y-8">
-              <li><a href="#" class="transition hover:text-primary">Home</a></li>
+            <ul className="list-inside list-disc space-y-8">
+              <li><a href="#" className="transition hover:text-primary">Home</a></li>
   
-              <li><a href="#" class="transition hover:text-primary">About</a></li>
-              <li><a href="#" class="transition hover:text-primary">Guide</a></li>
-              <li><a href="#" class="transition hover:text-primary">Blocks</a></li>
-              <li><a href="#" class="transition hover:text-primary">Contact</a></li>
-              <li><a href="#" class="transition hover:text-primary">Terms of Use</a></li>
+              <li><a href="#" className="transition hover:text-primary">About</a></li>
+              <li><a href="#" className="transition hover:text-primary">Guide</a></li>
+              <li><a href="#" className="transition hover:text-primary">Blocks</a></li>
+              <li><a href="#" className="transition hover:text-primary">Contact</a></li>
+              <li><a href="#" className="transition hover:text-primary">Terms of Use</a></li>
             </ul>
   
-            <ul role="list" class="space-y-8">
+            <ul role="list" className="space-y-8">
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    class="w-5"
+                    className="w-5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -36,11 +36,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    class="w-5"
+                    className="w-5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -51,11 +51,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    class="w-5"
+                    className="w-5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -67,11 +67,11 @@ const Footer = () => {
               </li>
   
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    class="w-5"
+                    className="w-5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -82,11 +82,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    class="w-5"
+                    className="w-5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -97,13 +97,13 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="5"
+                    className="5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -114,9 +114,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <img
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     width="32"
                     height="32"
                     src="https://c5.patreon.com/external/favicon/favicon.ico?v=69kMELnXkB"
@@ -126,11 +126,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    class="w-5"
+                    className="w-5"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -143,21 +143,21 @@ const Footer = () => {
             </ul>
           </div>
           <div
-            class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left"
+            className="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left"
           >
-            <span class="block text-gray-500 dark:text-gray-400"
+            <span className="block text-gray-500 dark:text-gray-400"
               >We change the way UI components librairies are used</span
             >
   
-            <span class="block text-gray-500 dark:text-gray-400">Tailus Blocks &copy; <span id="year"></span></span>
+            <span className="block text-gray-500 dark:text-gray-400">Tailus Blocks &copy; <span id="year"></span></span>
   
-            <span class="flex justify-between text-gray-600 dark:text-white">
-              <a href="#" class="font-medium">Terms of Use </a>
-              <a href="#" class="font-medium"> Privacy Policy</a>
+            <span className="flex justify-between text-gray-600 dark:text-white">
+              <a href="#" className="font-medium">Terms of Use </a>
+              <a href="#" className="font-medium"> Privacy Policy</a>
             </span>
   
-            <span class="block text-gray-500 dark:text-gray-400"
-              >Need help? <a href="#" class="font-semibold text-gray-600 dark:text-white"> Contact Us</a></span
+            <span className="block text-gray-500 dark:text-gray-400"
+              >Need help? <a href="#" className="font-semibold text-gray-600 dark:text-white"> Contact Us</a></span
             >
           </div>
         </div>

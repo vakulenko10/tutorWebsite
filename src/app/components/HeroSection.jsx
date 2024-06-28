@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Container from './Container'
 const wordsToShow = [
-  "цікавим", 
-  "простим",
-  "бонжур",
-  "риба",
-  "сало"
+  "легко", 
+  "цікаво",
+  "просто",
+  "дешево"
 ]
 const HeroSection = () => {
   const [wordIndex, setWordIndex] = useState(0)
@@ -18,21 +17,23 @@ const HeroSection = () => {
   }, []);
   return (
     <div className="relative home" id="home">
-    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-        <div class="blur-[106px] h-[40%] bg-gradient-to-br from-primary to-[#bd00bd] dark:from-blue-700"></div>
-        <div class="blur-[106px] h-[60%] bg-gradient-to-r from-[#0a91ff] to-secondary dark:to-indigo-600"></div>
+    <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+        <div className="blur-[106px] h-[40%] bg-gradient-to-br from-accentn to-secondary dark:from-blue-700"></div>
+        <div className="blur-[106px] h-[60%] bg-gradient-to-r from-primary to-textStrong dark:to-indigo-600"></div>
     </div>
     <Container>
       <div className="relative pt-36 ml-auto">
         <div className="lg:w-2/3 text-center mx-auto">
-          <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-            Вивчення англійської має бути {" "}
-            <span className="text-primary dark:text-white" style={{
-                  animation: `rotateWords 2s infinite`,
-                  animationDelay: `.1s`
-                }}>{wordsToShow[wordIndex]}</span> 
-          </h1>
-          <p className="mt-8 text-gray-700 dark:text-gray-300">
+          <h1 className="text-textStrong dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+     Вивчення англійської з <span className='text-accentn'>AcademyForU</span> це {``} <br/>
+      <span className="text-accentn dark:text-white" style={{
+        animation: `rotateWords 2s infinite`,
+        animationDelay: `.1s`
+      }}>
+        {wordsToShow[wordIndex]}
+      </span>
+    </h1>
+          <p className="mt-8 text-accentn dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt
             nam itaque sed eius modi error totam sit illum. Voluptas doloribus
             asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!
@@ -57,19 +58,19 @@ const HeroSection = () => {
           </div>
           <div className="hidden rounded-xl px-3  py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
             <div className="text-left">
-              <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
+              <h6 className="text-lg font-semibold text-accentn dark:text-white">
               Постійна допомога
               </h6>
               <p className="mt-2 text-gray-500">Some text here</p>
             </div>
             <div className="text-left">
-              <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
+              <h6 className="text-lg font-semibold text-accentn dark:text-white">
                 Інтерактивні зайняття
               </h6>
               <p className="mt-2 text-gray-500">Some text here</p>
             </div>
             <div className="text-left">
-              <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
+              <h6 className="text-lg font-semibold text-accentn dark:text-white">
                 Досвід 
               </h6>
               <p className="mt-2 text-gray-500">Some text here</p>
@@ -79,7 +80,7 @@ const HeroSection = () => {
         <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
           <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
             <img
-              src="./images/clients/microsoft.svg"
+              src="./images/clients/genially.png"
               className="h-12 w-auto mx-auto"
               loading="lazy"
               alt="client logo"
@@ -89,7 +90,7 @@ const HeroSection = () => {
           </div>
           <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
             <img
-              src="./images/clients/airbnb.svg"
+              src="./images/clients/miro.png"
               className="h-12 w-auto mx-auto"
               loading="lazy"
               alt="client logo"
@@ -99,7 +100,7 @@ const HeroSection = () => {
           </div>
           <div className="p-4 flex grayscale transition duration-200 hover:grayscale-0">
             <img
-              src="./images/clients/google.svg"
+              src="./images/clients/notion.png"
               className="h-9 w-auto m-auto"
               loading="lazy"
               alt="client logo"
@@ -109,7 +110,7 @@ const HeroSection = () => {
           </div>
           <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
             <img
-              src="./images/clients/ge.svg"
+              src="./images/clients/elli.png"
               className="h-12 w-auto mx-auto"
               loading="lazy"
               alt="client logo"

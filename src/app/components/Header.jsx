@@ -37,8 +37,8 @@ const Header = () => {
             <div className="h-4 w-4 rounded-full bg-black dark:bg-white" />
             <div className="h-6 w-2 bg-primary" />
             </div>
-            <span className="text-2xl font-bold text-gray-800 dark:text-white">
-              Yevhen Vakulenko
+            <span className="text-2xl font-bold text-textStrong dark:text-white">
+              AcademyForU
             </span>
           </a>
           <div className="relative flex items-center lg:hidden max-h-10">
@@ -80,6 +80,7 @@ const Header = () => {
                 <a
                   href="#features"
                   className="block md:px-4 transition hover:text-primary"
+                  onClick={hideHeader}
                 >
                   <span>Про навчання</span>
                 </a>

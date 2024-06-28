@@ -16,6 +16,9 @@
   }
 
 } */
+ body{
+  @apply bg-secondary;
+ }
 h1{
   font-family: "Montserrat", sans-serif;
   font-size: 60px;

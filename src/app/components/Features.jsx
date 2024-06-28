@@ -17,11 +17,11 @@ const Features = () => {
           clipRule="evenodd"
         />
       </svg>
-      <h2 className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+      <h2 className="my-8 text-2xl font-bold text-accentn dark:text-white md:text-4xl">
         Особливий підхід до кожного учня, та добре розплановані курси
       </h2>
       <p className="text-gray-600 dark:text-gray-300">
-        Регулярна підтримка від вчителя. Використання навчального майданчику Ellii.
+        Регулярна підтримка від вчителя. Використання різних навчальних майданчиків та зручних застосунків, серед яких: Miro, Notion, Genially, Ellii.
       </p>
     </div>
     <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
@@ -35,7 +35,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
                 Пробне зайняття
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -44,7 +44,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-secondary"
+            className="flex items-center justify-between group-hover:text-textStrong"
           >
             <span className="text-sm">Read more</span>
             <svg
@@ -72,7 +72,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
               Інтерактивні уроки
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -81,7 +81,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-secondary"
+            className="flex items-center justify-between group-hover:text-textStrong"
           >
             <span className="text-sm">Read more</span>
             <svg
@@ -109,7 +109,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
               Чіткий план і адаптація під кожного учня
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -118,7 +118,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-secondary"
+            className="flex items-center justify-between group-hover:text-textStrong"
           >
             <span className="text-sm">Read more</span>
             <svg
@@ -146,7 +146,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
               Адаптивний графік
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -155,7 +155,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-secondary"
+            className="flex items-center justify-between group-hover:text-textStrong"
           >
             <span className="text-sm">Read more</span>
             <svg

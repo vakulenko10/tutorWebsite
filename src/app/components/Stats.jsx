@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     <div className="my-20" id="solution">
   <Container>
-  <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+  <h2 className="text-center text-2xl font-bold text-textStrong dark:text-white md:text-4xl">
         Вартість
       </h2>
     <svg
@@ -29,7 +29,7 @@ const Stats = () => {
         
     <div className="group p-6 sm:p-8 rounded-3xl  bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
     <div className="mb-6 relative">
-          <h3 className="text-2xl font-semibold text-center text-gray-800 dark:text-white">
+          <h3 className="text-2xl font-semibold text-center text-textStrong dark:text-white">
             Навчальний курс для початкового рівня <span className='text-primary'><br/>(A0 - A2)</span>
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
@@ -55,7 +55,7 @@ const Stats = () => {
       </div>
       <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
     <div className="mb-6 relative">
-          <h3 className="text-2xl font-semibold text-center text-gray-800 dark:text-white">
+          <h3 className="text-2xl font-semibold text-center text-textStrong dark:text-white">
             Навчальний курс для початкового рівня <span className='text-primary'><br/>( A2 - B1 )</span>
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
@@ -81,7 +81,7 @@ const Stats = () => {
       </div>
       <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
     <div className="mb-6 relative">
-          <h3 className="text-2xl font-semibold text-center text-gray-800 dark:text-white">
+          <h3 className="text-2xl font-semibold text-center text-textStrong dark:text-white">
             Навчальний курс для початкового рівня <span className='text-primary'><br/>(B1 - B1+)</span>
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
@@ -107,7 +107,7 @@ const Stats = () => {
       </div>
       <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
     <div className="mb-6 relative">
-          <h3 className="text-2xl font-semibold text-center text-gray-800 dark:text-white">
+          <h3 className="text-2xl font-semibold text-center text-textStrong dark:text-white">
             Навчальний курс для початкового рівня <span className='text-primary'><br/>(B1+ - B2)</span>
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">

@@ -56,7 +56,7 @@ const CallToAction = () => {
         />
       </div>
       <div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
-        <h1 className="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+        <h1 className="text-center text-4xl font-bold text-textStrong dark:text-white md:text-5xl">
           Починай вчити англійську <span className='text-primary capitalize'>зараз</span>
         </h1>
         <p className="text-center text-xl text-gray-600 dark:text-gray-300">

@@ -6,11 +6,17 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  /*primary: '#FFC7ED',
+  secondary: "#FFF8DB",
+  accentn: "#7D8ABC",
+  textStrong: "#304463",*/
   theme: {
     colors:{
-      primary: '#9333EA',
-      secondary: "#ff7e33",
-      info: "#0C63E7",
+      primary: '#37B7C3',
+      secondary: "#EBF4F6",
+      accentn: "#071952",
+      textStrong: "#088395",
+      info: "#7D8ABC",
       gray: {
         50: "#FAFAFC",
         100: "#E9E9EC",
