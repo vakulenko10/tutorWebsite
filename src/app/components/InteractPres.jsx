@@ -14,7 +14,7 @@ const InteractPres = () => {
   }, []);
 
   return (
-    <div style={{ width: '50%' }}>
+    <div className={`md:w-[50%] `} >
       <div className="container-wrapper-genially" style={{ position: 'relative', minHeight: '400px', maxWidth: '100%' }}>
         <video
           className="loader-genially"
