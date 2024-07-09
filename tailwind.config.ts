@@ -8,14 +8,18 @@ const config: Config = {
   ],
   /*primary: '#FFC7ED',
   secondary: "#FFF8DB",
-  accentn: "#7D8ABC",
-  textStrong: "#304463",*/
+  tertiary: "#7D8ABC",
+  quaternary: "#304463",*/
   theme: {
     colors:{
-      primary: '#37B7C3',
-      secondary: "#EBF4F6",
-      accentn: "#071952",
-      textStrong: "#088395",
+      primary: '#EFBC9B',
+      secondary: "#FBF3D5",
+      tertiary: "#D6DAC8",
+      quaternary: "#9CAFAA",
+      primarydark: '#6B8A7A',
+      secondarydark: "#254336",
+      tertiaryDark: "#B7B597",
+      quaternarydark: "#DAD3BE",
       info: "#7D8ABC",
       gray: {
         50: "#FAFAFC",

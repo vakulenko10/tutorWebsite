@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Container from './Container';
 
 const InteractPres = () => {
   useEffect(() => {
@@ -14,6 +15,12 @@ const InteractPres = () => {
   }, []);
 
   return (
+    <Container>
+       <div className="my-20 space-y-4 px-6 md:px-0">
+      <h2 className="text-center text-2xl font-bold text-quaternary dark:text-quaternarydark dark:text-tertiaryDark md:text-4xl">
+        Прикладові матеріали
+      </h2>
+    </div>
     <div className={`md:w-[50%] `} >
       <div className="container-wrapper-genially" style={{ position: 'relative', minHeight: '400px', maxWidth: '100%' }}>
         <video
@@ -30,6 +37,7 @@ const InteractPres = () => {
         <div id="667955516971fd00145af967" className="genially-embed" style={{ margin: '0px auto', position: 'relative', height: 'auto', width: '100%' }}></div>
       </div>
     </div>
+    </Container>
   );
 };
 

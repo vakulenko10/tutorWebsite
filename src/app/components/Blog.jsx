@@ -6,7 +6,7 @@ const Blog = () => {
     <div id="blog">
   <Container>
     <div className="mb-12 space-y-2 text-center">
-      <h2 className="text-3xl font-bold text-textStrong md:text-4xl dark:text-white">
+      <h2 className="text-3xl font-bold text-quaternary dark:text-textStrongdarkdark:text-quaternarydark md:text-4xl">
         Latest Articles
       </h2>
       <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
@@ -27,7 +27,7 @@ const Blog = () => {
           />
         </div>
         <div className="mt-6 relative">
-          <h3 className="text-2xl font-semibold text-textStrong dark:text-white">
+          <h3 className="text-2xl font-semibold text-quaternary dark:text-textStrongdarkdark:text-quaternarydark ">
             De fuga fugiat lorem ispum laboriosam expedita.
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
@@ -51,7 +51,7 @@ const Blog = () => {
           />
         </div>
         <div className="mt-6 relative">
-          <h3 className="text-2xl font-semibold text-textStrong dark:text-white">
+          <h3 className="text-2xl font-semibold text-quaternary dark:text-textStrongdarkdark:text-quaternarydark ">
             De fuga fugiat lorem ispum laboriosam expedita.
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
@@ -75,7 +75,7 @@ const Blog = () => {
           />
         </div>
         <div className="mt-6 relative">
-          <h3 className="text-2xl font-semibold text-textStrong dark:text-white">
+          <h3 className="text-2xl font-semibold dark:text-textStrongdarkdark:text-quaternarydark text-quaternary dark:text-tertiaryDark">
             De fuga fugiat lorem ispum laboriosam expedita.
           </h3>
           <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">

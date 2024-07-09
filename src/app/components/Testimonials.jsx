@@ -5,7 +5,7 @@ const Testimonials = () => {
     <div className="text-gray-600 dark:text-gray-300" id="testimonials">
   <Container>
     <div className="mb-20 space-y-4 px-6 md:px-0">
-      <h2 className="text-center text-2xl font-bold text-textStrong dark:text-white md:text-4xl">
+      <h2 className="text-center text-2xl font-bold text-quaternary dark:text-quaternarydark dark:text-tertiaryDark md:text-4xl">
         Відгуки
       </h2>
     </div>
@@ -21,7 +21,7 @@ const Testimonials = () => {
             loading="lazy"
           />
           <div>
-            <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+            <h6 className="text-lg font-medium text-gray-700  dark:text-tertiaryDark">
               Daniella Doe
             </h6>
             <p className="text-sm text-gray-500 dark:text-gray-300">
@@ -50,7 +50,7 @@ const Testimonials = () => {
             loading="lazy"
           />
           <div>
-            <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+            <h6 className="text-lg font-medium text-gray-700  dark:text-tertiaryDark">
               Jane doe
             </h6>
             <p className="text-sm text-gray-500 dark:text-gray-300">
@@ -76,7 +76,7 @@ const Testimonials = () => {
             loading="lazy"
           />
           <div>
-            <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+            <h6 className="text-lg font-medium text-gray-700  dark:text-tertiaryDark">
               Yanick Doe
             </h6>
             <p className="text-sm text-gray-500 dark:text-gray-300">
@@ -102,7 +102,7 @@ const Testimonials = () => {
             loading="lazy"
           />
           <div>
-            <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+            <h6 className="text-lg font-medium text-gray-700  dark:text-tertiaryDark">
               Jane Doe
             </h6>
             <p className="text-sm text-gray-500 dark:text-gray-300">
@@ -128,7 +128,7 @@ const Testimonials = () => {
             loading="lazy"
           />
           <div>
-            <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+            <h6 className="text-lg font-medium text-gray-700  dark:text-tertiaryDark">
               Andy Doe
             </h6>
             <p className="text-sm text-gray-500 dark:text-gray-300">Manager</p>
@@ -153,7 +153,7 @@ const Testimonials = () => {
             loading="lazy"
           />
           <div>
-            <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+            <h6 className="text-lg font-medium text-gray-700  dark:text-tertiaryDark">
               Yanndy Doe
             </h6>
             <p className="text-sm text-gray-500 dark:text-gray-300">

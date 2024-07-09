@@ -10,18 +10,18 @@ const Footer = () => {
             className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start"
           >
             <ul className="list-inside list-disc space-y-8">
-              <li><a href="#" className="transition hover:text-primary">Home</a></li>
+              <li><a href="#" className="transition hover:text-primary dark:hover:text-primarydark">Home</a></li>
   
-              <li><a href="#" className="transition hover:text-primary">About</a></li>
-              <li><a href="#" className="transition hover:text-primary">Guide</a></li>
-              <li><a href="#" className="transition hover:text-primary">Blocks</a></li>
-              <li><a href="#" className="transition hover:text-primary">Contact</a></li>
-              <li><a href="#" className="transition hover:text-primary">Terms of Use</a></li>
+              <li><a href="#" className="transition hover:text-primary dark:hover:text-primarydark">About</a></li>
+              <li><a href="#" className="transition hover:text-primary dark:hover:text-primarydark">Guide</a></li>
+              <li><a href="#" className="transition hover:text-primary dark:hover:text-primarydark">Blocks</a></li>
+              <li><a href="#" className="transition hover:text-primary dark:hover:text-primarydark">Contact</a></li>
+              <li><a href="#" className="transition hover:text-primary dark:hover:text-primarydark">Terms of Use</a></li>
             </ul>
   
             <ul role="list" className="space-y-8">
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -36,7 +36,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -51,7 +51,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
   
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -82,7 +82,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -97,7 +97,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -114,7 +114,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <img
                     className="h-5 w-5"
                     width="32"
@@ -126,7 +126,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center space-x-3 transition hover:text-primary">
+                <a href="#" className="flex items-center space-x-3 transition hover:text-primary dark:hover:text-primarydark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"

@@ -17,15 +17,15 @@ const Features = () => {
           clipRule="evenodd"
         />
       </svg>
-      <h2 className="my-8 text-2xl font-bold text-accentn dark:text-white md:text-4xl">
+      <h2 className="my-8 text-2xl font-bold text-quaternary dark:text-tertiaryDark  md:text-4xl">
         Особливий підхід до кожного учня, та добре розплановані курси
       </h2>
       <p className="text-gray-600 dark:text-gray-300">
         Регулярна підтримка від вчителя. Використання різних навчальних майданчиків та зручних застосунків, серед яких: Miro, Notion, Genially, Ellii.
       </p>
     </div>
-    <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
-      <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+    <div className="mt-16 grid divide-x divide-y divide-secondary dark:divide-gray-700 overflow-hidden rounded-3xl border border-none shadow-2xl text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+      <div className="group relative bg-primary dark:bg-primarydark transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
         <div className="relative space-y-8 py-12 p-8">
           <img
             src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
@@ -35,7 +35,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
+            <h5 className="text-xl font-semibold text-secondary dark:text-tertiaryDark  transition  dark:group-hover:text-quaternarydark">
                 Пробне зайняття
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -44,7 +44,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-textStrong"
+            className="flex items-center justify-between  text-secondary dark:text-quaternarydark dark:group-hover:text-tertiaryDark"
           >
             <span className="text-sm">Read more</span>
             <svg
@@ -62,7 +62,7 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+      <div className="group relative bg-secondary dark:bg-primarydark transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
         <div className="relative space-y-8 py-12 p-8">
           <img
             src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
@@ -72,7 +72,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
+            <h5 className="text-xl font-semibold text-quaternary dark:text-tertiaryDark  transition group-hover:text-quaternary dark:group-hover:text-quaternarydark">
               Інтерактивні уроки
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -81,7 +81,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-textStrong"
+            className="flex items-center justify-between group-hover:text-quaternary dark:text-quaternarydark dark:group-hover:text-tertiaryDark text-quaternary"
           >
             <span className="text-sm">Read more</span>
             <svg
@@ -99,7 +99,7 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+      <div className="group relative bg-tertiary dark:bg-primarydark transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
         <div className="relative space-y-8 py-12 p-8">
           <img
             src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png"
@@ -109,7 +109,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
+            <h5 className="text-xl font-semibold text-quaternary dark:text-tertiaryDark  transition group-hover:text-quaternary dark:group-hover:text-quaternarydark">
               Чіткий план і адаптація під кожного учня
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -118,7 +118,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-textStrong"
+            className="flex items-center justify-between text-quaternary dark:text-quaternarydark dark:group-hover:text-tertiaryDark"
           >
             <span className="text-sm">Read more</span>
             <svg
@@ -136,8 +136,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="group relative bg-gray-50 dark:bg-gray-900 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-        <div className="relative space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
+      <div className="group relative bg-quaternary dark:bg-primarydark transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:hover:bg-none">
+        <div className="relative space-y-8 py-12 p-8 transition duration-300  dark:group-hover:bg-gray-800">
           <img
             src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
             className="w-12"
@@ -146,7 +146,7 @@ const Features = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl font-semibold text-accentn dark:text-white transition group-hover:text-textStrong">
+            <h5 className="text-xl font-semibold text-secondary dark:text-tertiaryDark  transition group-hover:text-tertiary dark:group-hover:text-quaternarydark">
               Адаптивний графік
             </h5>
             <p className="text-gray-600 dark:text-gray-300">
@@ -155,7 +155,7 @@ const Features = () => {
           </div>
           <a
             href="#"
-            className="flex items-center justify-between group-hover:text-textStrong"
+            className="flex items-center justify-between text-secondary group-hover:text-tertiary dark:text-quaternarydark dark:group-hover:text-tertiaryDark"
           >
             <span className="text-sm">Read more</span>
             <svg
