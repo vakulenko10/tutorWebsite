@@ -1,7 +1,7 @@
 "use client"
 import React, { useState , useRef} from 'react';
 import Container from './Container'
-
+import { motion, animate } from 'framer-motion';
 const Header = () => {
     const [isChecked, setIsChecked] = useState(false);
     const input = useRef(null)
@@ -9,10 +9,33 @@ const Header = () => {
         input.current.click();
     }
     const handleToggle = () => {
-    // input.value = !input.value;
+      setIsChecked(!isChecked);
+  };
 
-    setIsChecked(!isChecked);
-    };
+  const scrollToSection = (id) => {
+      const section = document.getElementById(id);
+
+      if (section) {
+          const y = section.getBoundingClientRect().top + window.pageYOffset - 70; // Adjust the offset as needed
+
+          // Animate the scroll using Framer Motion's animate function
+          animate(window.scrollY, y, {
+              type: "spring",
+              stiffness: 100,
+              damping: 20,
+              duration: 0.5,
+              onUpdate: (latest) => {
+                  window.scrollTo(0, latest);
+              }
+          });
+      }
+  };
+
+  const handleLinkClick = (id) => {
+      hideHeader();
+      handleToggle();
+      scrollToSection(id);
+  };
   return (
     <header>
   <nav className="z-10 w-full absolute ">
@@ -84,7 +107,7 @@ const Header = () => {
                 <a
                   href="#features"
                   className="block md:px-4 transition hover:text-primary dark:hover:text-primarydark"
-                  onClick={hideHeader}
+                  onClick={()=>handleLinkClick("features")}
                 >
                   <span>Про навчання</span>
                 </a>
@@ -93,7 +116,7 @@ const Header = () => {
                 <a
                   href="#solution"
                   className="block md:px-4 transition hover:text-primary dark:hover:text-primarydark"
-                  onClick={hideHeader}
+                  onClick={()=>handleLinkClick("solution")}
                 >
                   <span>Курси</span>
                 </a>
@@ -102,7 +125,7 @@ const Header = () => {
                 <a
                   href="#testimonials"
                   className="block md:px-4 transition hover:text-primary dark:hover:text-primarydark"
-                  onClick={hideHeader}
+                  onClick={()=>handleLinkClick("testimonials")}
                 >
                   <span>Відгуки</span>
                 </a>
@@ -111,7 +134,7 @@ const Header = () => {
                 <a
                   href="#blog"
                   className="block md:px-4 transition hover:text-primary dark:hover:text-primarydark"
-                  onClick={hideHeader}
+                  onClick={()=>handleLinkClick("blog")}
                 >
                   <span>Питання</span>
                 </a>
@@ -122,7 +145,7 @@ const Header = () => {
             <a
               href="#"
               className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary dark:before:bg-primarydark before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-              onClick={hideHeader}
+              onClick={()=>handleLinkClick("blog")}
             >
               <span className="relative text-sm font-semibold text-white">
                 Зв&apos;язатися
